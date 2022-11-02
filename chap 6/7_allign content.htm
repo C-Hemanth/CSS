@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content{
+            display: flex;
+            flex-wrap: wrap;
+            /* flex-direction: column; */
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+
+            /* whenm we use wrap with "allign items" and "justify" proerties the toy boxes will have some gap when we decreasing the page  */
+             
+            /* so  by if the gap should not be there then we use "allign content" so the even if we wrap it will the toy classes comes down to each other but there will be no gap */
+
+            
+            background-color: blue;
+            height: 100vh;
+
+        }
+        .toy1{
+            background-color: aqua;
+            height: 20vh;
+            width: 30vh;
+            
+        }
+        .toy2{
+            background-color: rgb(96, 81, 110);
+            height: 20vh;
+            width: 30vh;
+            
+        }
+    </style>
+
+        <!-- "align-content" == align's a flex containers line when there is extra space -->
+
+</head>
+<body>
+    <div class="content">
+        
+    
+        <div class="toy1">
+            heloo
+        </div>
+        <div class="toy2">
+            how r  u
+        </div>
+        <div class="toy1">
+            bye
+        </div>
+    </div>
+</body>
+</html>

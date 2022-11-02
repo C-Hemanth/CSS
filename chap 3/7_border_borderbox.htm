@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- margin collapse == when two margins from diff elemnets overlap the equivalent margin is greater of the two this is called margin collapse  -->
+
+    <!-- froem the below two statements the margin of marg is 30px and the margin of the margi is 20 px  -->
+    <!-- marg has high margin so it overlaps in the  margi margin -->
+    <style>
+        *{margin: 0;padding: 0;}
+        .parent{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            margin: 30px;
+            border: 10px solid green;
+        }
+        .child{
+            /* width: 20px; */
+            height: 30px;
+            background-color: red;
+            /* margin: 20px; */
+            padding: 5px;
+            width: 100%;
+            border: 5px solid blue;
+            box-sizing: border-box
+
+
+            /* whole using the 'box-sizing: border-box;' we  get a change in the output when the child is extended outside the parent then border box is used to represent the child inside the parent */
+
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, vero officia! A esse atque error mollitia facilis impedit quasi unde, odit rem aspernatur minima laborum rerum ipsum ratione sapiente, voluptate repellendus ipsa! Odit, deleniti.
+        <div class="child">
+        Lorem 
+    </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content{
+            display: flex;
+            flex-wrap: wrap;
+            /* flex-direction: column; */
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            /* align-content: center; */
+
+           
+            background-color: blue;
+            height: 100vh;
+            /* border: 2px solid black; */
+
+        }
+        .toy1{
+            background-color: aqua;
+            height: 20vh;
+            width: 30vh;
+            /* order: 4; */
+            border:2px solid black;
+            align-self: flex-end;
+
+            /* the above statement makes the "toy1 class" statement to be represent at the below  */
+
+          /* align_self prorpety == allows default alignment to be over ridden for the indivbiduAL FLEX ITEMS  */
+            
+        }
+        .toy2{
+            background-color: rgb(96, 81, 110);
+            height: 20vh;
+            width: 30vh;
+            border:2px solid black;
+            /* order: 2; */
+            
+        }
+    </style>
+
+       
+
+</head>
+<body>
+    <div class="content">
+        <div class="toy1">
+            heloo
+        </div>
+        <div class="toy2">
+            howru
+        </div>
+        <div class="toy2">
+            bye
+        </div>
+        <div class="toy2">
+            seeu
+        </div>
+        <div class="toy2">
+            see
+        </div>
+        <div class="toy2">
+            se
+        </div>
+        
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .animie{
+            background-color: salmon;
+            height: 70vh;
+        }
+        img{
+            /* transform-origin: 50px; */
+            margin: 50px;
+            padding: 50px;
+            
+        }
+        img{
+            animation: animi 5s ease-in-out 1s 4 normal ;
+            
+        } 
+        @keyframes animi{
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="animie">
+            <img src="https://unsplash.com/blog/content/images/size/w1000/2022/05/Tim-landscape-Canada-1.jpg " alt="" width="200px" height="100px">
+        </div>
+    </header>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .toy{
+            background-color: darkorange;
+            width: auto;
+            height: 50ch;
+        }
+        .play{
+            border: 5px solid blue;
+            display: inline-block;
+            margin:80px;
+        }
+        img:hover{
+            width: 60px; 
+            
+            /* hover == it makes the image to convet its actual width to given width */
+        }
+        img{
+            transition-property: width;
+
+            /* transition property == the property u want to transition */
+
+            transition-duration: 3s;
+
+            /* transition-duration == for how much time u want to transit the image from on "normal width" to "hover width" */
+            
+            transition-timing-function: ease-in-out;
+
+            /* transition timing function == used to how u want to proerty to transist */
+
+             /* these functions are depends upon the "start" ansd "end" of the given content or image whether to "run slow /fast at start" and "slow/fast at end" */
+
+            transition-delay: 1s;
+
+            /* transition-delay == used to for how much time we want to make the proess of the image should be start  */
+
+
+
+        }
+
+       
+    </style>
+</head>
+<body>
+    <div class="toy">
+        <div class="play">
+            <img src="https://unsplash.com/blog/content/images/size/w1000/2022/05/Tim-landscape-Canada-1.jpg " alt="" width="200px" height="100px">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            /* margin: 0; */
+            /* padding: 0; */
+            /* we can write it as 'm-0' and 'p-0' */
+            /* or m0+p0' */
+            margin: 0;
+            padding: 0;
+
+        }
+
+        #phot {
+            width: 244px;
+            height: 144px;
+            /* background-color: aqua; */
+            border: 2px solid red;
+            color: azure;
+            background-image: url('image.jpg');
+
+            background-repeat: no-repeat;
+            background-size: 200PX, 300PX;
+
+            /* OR THE BELOW SIzes */
+
+            background-size: cover;                               
+            /*if we use cover we dont get no spacw */
+            background-size: contain;
+            background-size: auto;
+
+            /* we can write our own back ground size */
+             /* w can use our own size optons from the above */
+
+        }
+
+        /* body{
+            /* background-image: url('johnny.jpg'); */
+
+        /* } */
+        /* back ground size contains of four properties */
+        /* cover == fits and no empty space remains */
+        /* contain == fits and image is fullly visible  */
+        /* auto == display in original size */
+        /* width == set width and height will be set automatically */
+    </style>
+
+</head>
+
+<body>
+    <div id="phot">
+        this is single photo
+    </div>
+</body>
+
+</html>

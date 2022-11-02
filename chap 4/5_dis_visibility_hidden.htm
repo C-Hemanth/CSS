@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display</title>
+   
+    <style>
+        .box1{
+            display: inline;
+            visibility: hidden;
+            background-color: aquamarine;
+            width: 440px;
+            height: 600px;
+            margin: 5px;
+
+            /* visibility: hidden; the element/contnt is hidden but its apace is not recovered 
+            EX == when first content is hidden the space of that first contnet is not occupies by the secont content,first conttnt shows blank space */
+        }
+        .box2{
+            width: 440px;
+            height: 600px;
+            background-color: blueviolet;
+            display: inline-block;
+
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        Lorem, ipsum dolor.
+    </div>
+    <div class="box2">
+        Lorem ipsum dolor sit.
+    </div>
+</body>
+</html>
+

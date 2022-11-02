@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 3d  transformation</title>
+    <style>
+        .toy{
+            background-color: darkorange;
+            width: auto;
+            height: 50ch;
+        }
+        .play{
+            border: 5px solid blue;
+            display: inline-block;
+            /* transform: translate(120px) rotate(1.2turn); */
+            transform: rotateX(60deg);
+            transform: rotateY(70deg);
+            transform: rotateZ(50deg);
+
+           /* in 3d transform we can use  degrees for rotates  */
+            
+            transform-origin: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="toy">
+        <div class="play">
+            <img src="https://unsplash.com/blog/content/images/size/w1000/2022/05/Tim-landscape-Canada-1.jpg " alt="" width="100px" height="100px">
+        </div>
+    </div>
+</body>
+</html>

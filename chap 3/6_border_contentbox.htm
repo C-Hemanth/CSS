@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- margin collapse == when two margins from diff elemnets overlap the equivalent margin is greater of the two this is called margin collapse  -->
+
+    <!-- froem the below two statements the margin of marg is 30px and the margin of the margi is 20 px  -->
+    <!-- marg has high margin so it overlaps in the  margi margin -->
+    <style>
+        *{margin: 0;padding: 0;}
+        .marg{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            margin: 30px;
+        }
+        .margi{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin: 20px;
+            padding: 10px;
+            border: 10px solid blue;
+            box-sizing: content-box;
+
+
+            /* whole using the 'box-sizing: content-box;' we dont get any change in the output; */
+
+            /* border size contains :border:  */
+            /* 1)border-content box  */
+            /* 2)border-boeder box */
+
+        }
+    </style>
+</head>
+<body>
+    <div class="marg">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, vero officia! A esse atque error mollitia facilis impedit quasi unde, odit rem aspernatur minima laborum rerum ipsum ratione sapiente, voluptate repellendus ipsa! Odit, deleniti.
+    </div>
+    <div class="margi">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, a modi et beatae voluptate atque doloribus similique quod facilis earum rem, nam nobis aliquid, quae accusantium aliquam omnis id hic! Nisi sunt vero ut minima vel voluptas ex sapiente veritatis!
+    </div>
+</body>
+</html>

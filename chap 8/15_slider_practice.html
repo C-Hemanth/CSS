@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .slider{
+            background-color: aqua;
+            width: auto;
+            height: 90vh;
+            overflow: hidden;
+            display: block;
+            animation: slide 5s ease-in-out 1s 5 forwards;
+            
+        }
+        @keyframes slide{
+            0%{
+                transform: translate(0vw);
+            }
+            100%{
+                transform: translate(50vw);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="slider">
+            <img  src="https://unsplash.com/blog/content/images/size/w1000/2022/05/Tim-landscape-Canada-1.jpg " alt="" width="1500px" height="600px">
+        </div>
+    </header>
+</body>
+</html>

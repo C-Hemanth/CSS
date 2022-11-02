@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>em size</title>
+    <style>
+        html{
+            font-size: 30px;
+
+            /* by default the output font size is normally 16 px if we want to chamge we wang to the above onr=e to change the page default size 
+
+            rem == unit relative to the root foot size(html tag)
+            example we use html 'font size = 20px' with 'rem = 3' so that we get 20 x 3 =60px */
+        }
+        .parent{
+            font-size: 20px;
+        }
+        .child{
+            /* font-size: 10px; */
+
+            
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, vel.
+        <div class="child">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fugit, id pariatur officiis non aliquid sint facere consequuntur tempore iure.
+        </div>
+    </div>
+</body>
+</html>

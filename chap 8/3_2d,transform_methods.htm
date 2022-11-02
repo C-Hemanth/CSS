@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   
+
+    <style>
+        .toy{
+            background-color: aqua;
+            height: 50vh;
+            width: auto;
+        }
+        .play{
+           
+            /* border: 5px solid blue; */
+            /* transform: translate(20px) rotate(0.2turn); */
+
+                                /* note ==  we can write all transforms in the same  row like the above */
+
+            transform: translate(200px);
+
+            /* translate == used to move the content in the page at what px we have given */
+
+            transform: rotate(0.5turn);
+
+            /* rotate == used to rotate the content or pictueres at our given turn */
+
+            transform: scale(1,4);
+            transform: scaleX(1);
+            transform: scaleY(4);
+
+            /* scale == it makles the sentence as how much length we want in xaxis and y-axis */
+
+            transform: skew(24deg,26deg);
+            transform: skewX(24deg);
+            transform: skewY(26deg);
+
+            /* skew == we cann change the x angle nd y angle with  respect to one axis constant it rotates*/
+
+            transform: matrix();
+            /* matrix == we can use all the tranform elements with in the matrix  */
+            /* but matrix is not mainly used in developing */
+
+             transform-origin: 0;
+        }
+        /* .toy1{
+            transform: scale(1,14);
+            transform: scaleX(1);
+            transform: scaleY(14);
+
+            scale == it makles the sentence as how much length we want in xaxis and y-axis
+        } */
+
+    </style>
+
+                <!-- short hand like property for matrix == matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())  -->
+</head>
+<body>
+    <div class="toy">
+        <div class="play">
+            <img src="https://unsplash.com/blog/content/images/size/w1000/2022/05/Tim-landscape-Canada-1.jpg " alt="" width="100px" height="100px">
+        </div>
+        <div class="toy1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quo?
+        </div>
+    </div>
+</body>
+</html>

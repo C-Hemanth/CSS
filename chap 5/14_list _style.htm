@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+       
+        
+        header{
+            background-color: palevioletred;
+            height: 30px;
+            /* margin: 10px; */
+
+            position: sticky;
+            z-index: 1;
+
+            
+            top: 0;
+           
+
+            
+        }
+        /* ul{
+            /* background-color: aqua; */
+        /* } */ 
+        li{
+            /* display: inline; */
+
+            list-style: circle;
+            
+            /* list-style: circle inside url('th.jpeg'); */
+
+            /* when we write inside inspect the bullet lines are inside the circle shape */
+            /* when we write outline inspect the bullet lines are outside the circle shape */
+
+            /* list style == whick gives us tgeh shape for the list elements  */
+            /* the shortcut is == " list-style: square inside url('hemantth.jpg')" is an example  */
+
+        }
+        .content{
+            background-color: chartreuse;
+            text-align: center;
+            height: 50vh;
+            width: 50vw;
+            margin: auto;
+            height: 444px;
+            /* position: sticky; */
+            /* z-index: 2; */
+        }
+        .content2{
+            background-color: cornflowerblue;
+            height: 50vh;
+            width: 15vw;
+            position: fixed; 
+            /* top: 100px; */
+            /* left: 2vh; */
+
+            
+        }
+        .content3{
+            background-color: coral;
+            height: 180px;
+            width: 90px;
+            /* position: relative; */
+            /* left: 48px; */
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>home</li>
+                <li>about</li>
+                <li>contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio beatae, modi d
+        <div class="content2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptate nihil laudantium ullam alias temporibus vero sequi.
+            
+        </div>
+        <div class="content3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, delectus.
+            </div>
+    </div>
+    <ul>
+        <li>apple</li>
+        <li>app</li>
+        <li>bamnana</li>
+    </ul>
+</body>
+</html>

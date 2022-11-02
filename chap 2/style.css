@@ -1,0 +1,26 @@
+/* 1) */
+.red{
+    background: rgba(26, 95, 174, 0.656);
+    /* above one we heve got rgba because we use the lightest pink to darkest pink 
+    in rgba a="alpha" */
+        /* 0 is lighest  */
+    /* 1 is darkest */
+    color:bisque
+    we can write as "bg:red" so it gives as above 
+ }
+.green{
+    background: rgb(38, 255, 0);
+    color: blue; 
+
+/* 2) */
+ }
+.blue{ 
+    background:violet;
+    height: 344px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    /* we can used as "m0+p0" then it gives the above */
+   /* m0+p0 */
+}

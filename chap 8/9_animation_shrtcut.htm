@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .toy{
+            background-color: plum;
+            height: 90vh;
+            width: auto;
+        }
+        .play img{
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+            
+            /* shortcut method for  anmation property == animation{ name  duration  timing-function  delay  iteration-count  direction} */
+            animation:shortcut  5s ease-in-out 1s 4 alternate-reverse;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            /* animation-fill-mode: forwards; */
+
+        }
+        @keyframes shortcut{
+            from{
+                width:15vw ;
+                height: 15vh;
+            }
+            to{
+                width: 50vw;
+                height: 50vh;
+            }
+        }
+        img{
+            
+            width: 15vw;
+
+            height: 15vw;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="toy">
+        <div class="play">
+            <img src="https://unsplash.com/blog/content/images/size/w1000/2022/05/Tim-landscape-Canada-1.jpg " alt="" width="200px" height="200px">
+        </div>
+    </div>
+</body>
+</html>

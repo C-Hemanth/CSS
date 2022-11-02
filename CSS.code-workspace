@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "D:/CSS"
+		},
+		{
+			"name": "CSS @ fefb3d3",
+			"uri": "gitlens://7b22726566223a2266656662336433313239623636626436353632323063623361663466316162613965643935393833222c227265706f50617468223a22643a2f435353227d/d:/CSS?{\"ref\":\"fefb3d3\"}"
+		}
+	],
+	"settings": {
+		"DockerRun.DisableDockerrc": true,
+		"DockerRun.DisableAutoGenerateConfig": true
+	}
+}

@@ -1,0 +1,40 @@
+                    <!-- tranform origin 
+    it allow to change the position the elements 
+
+    1) 2d transforms == can change in the x-axis and y-axis
+    2) 3d transform == can change the z-axis as well  -->
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .toy{
+                background-color: aqua;
+                height: 20vh;
+                width: auto;
+            }
+            .play{
+                border: 5px solid blue;
+                transform: translate(20px) rotate(0.7turn);
+                transform-origin: 0;
+                        /* or  */
+                transform-origin: 30px;
+                        /* or  */
+                transform-origin: center;
+    
+               /* transform-origin == is used to make the content at what place we want */
+            }
+        </style>
+    
+    </head>
+    <body>
+        <div class="toy">
+            <div class="play">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus autem error eveniet facere nihil blanditiis quod corporis accusamus nobis tenetur!
+            </div>
+        </div>
+    </html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content{
+            display: grid;
+            background-color: deepskyblue;
+            /* grid-column-gap:5px ; */
+            /* grid-row-gap: 5px;  */
+            /* grid-template-columns: auto auto; */
+            
+             /* or   */
+             grid-gap: 20px 20px;
+             grid-template-columns: auto auto auto auto;
+             /* grid-column: 1/5; */
+             
+                               /* NOTE :  */
+
+            /* grid-column: 1/5 == means if we write in class toy 1 the class toy 1 will be appear from "1 st  coloum line" to "5 th coloum line"  ; */
+            /* grid-row: 1/4 == means if we write in class toy 1 the class toy 1 will be appear from "1 st  row line" to "5 th row line"  ; */
+
+            /* we can write this at in output when we inspect in that we can write this in element section  */
+            
+            /* grid-template-columns: 300px 300px auto; */
+
+            
+         
+        }
+        .toy{
+            background-color: rgb(190, 219, 49);
+            border: 3px solid black;  
+            /* grid-column: 1/4; */
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="toy">1</div>
+        <div class="toy">2</div>
+        <div class="toy">3</div>
+        <div class="toy" >4</div>
+        <div class="toy">5</div>
+        <div class="toy">6</div>
+        <div class="toy">7</div>
+        <div class="toy">8</div>
+        <div class="toy">9</div>
+    </div>
+</body>
+</html>

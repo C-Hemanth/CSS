@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display</title>
+    <style>
+        .box1{
+            display: inline;
+            background-color: aquamarine;
+            width: 440px;
+            height: 600px;
+            margin: 5px;
+
+            /* when we use display property we dont nedd to write width and height and top/bottom margin and padding  */
+
+        }
+        .box2{
+            width: 440px;
+            height: 600px;
+            background-color: blueviolet;
+            display: inline;
+
+            /* when we use the display: inline; we get the two boxes content side by side horizontally */
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        Lorem, ipsum dolor.
+    </div>
+    <div class="box2">
+        Lorem ipsum dolor sit.
+    </div>
+</body>
+</html>
+
+<!-- display property == is used to determine wheather an eelment is treated as a block/inline elemnet and the layout is used for the children[flexbox,grid] -->
+
+<!-- display inline == takes only the space required the element.no line breaks width,height,top/bottom margin ,padding not allowed. -->

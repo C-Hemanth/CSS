@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box content</title>
+    <!-- box content consists of 4 layers from out to in as follows:
+    1) margin-outside
+    2)border 
+    3)padding
+    4)content-inside -->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .content{
+            width: 300px;
+            height: 300px;
+            background: blue ;
+            /* for shortcut of margin we use 4 measurements such as 'top' 'right' 'bottom' 'left' ex shown int below */
+             /* same wise you can do for "padding" */
+
+            margin: 15px 20px 10px 25px;
+
+            /* if we us 2 measurements then it says 'top and bottom' 'left and right' */
+            /* same wise you can do for "padding" */
+
+            margin: 20px 25px;
+
+            /* we can take seperate measuremments as below */
+            margin-top: 20px ;
+            margin-bottom:25px ;
+            margin-right: 15px ;
+            margin-left: 10px ;
+
+                                /* NOTE ==  same wise u can do for "PADDING" */
+
+            padding: 15px;
+            border: 10px solid black;
+        }
+    </style>
+    <!-- by clicking on th einspect we can see the computed optin on the right we can find our words what we have given in the code  -->
+    <!-- in th elayout we can see the box content 4 layers with measurements -->
+</head>
+<body>
+    <div class="content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, debitis quam quidem suscipit, porro facere tempora voluptatem, totam voluptatum non odit? Corporis est voluptas tempore quod ratione impedit iusto at!
+    </div>
+    
+</body>
+</html>

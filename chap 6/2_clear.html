@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .toy1{
+            background-color: aqua;
+            height: 20vh;
+            width: 20vh;
+            /* float: right; */
+            float: left;
+            
+
+            /* we can not write clear for "box1" but we can write clear it in "box 2" */
+
+        }
+        .toy2{
+            background-color: blueviolet;
+            height: 20vh;
+            width: 20vh;
+            float: right;
+            /* clear: right; */
+            clear: both;
+            
+            /* box2 says that no one will be beside my left or right while using clear=both  */
+        }
+    </style>
+
+        <!-- clear proprety ==  used to clear the float.it specifiesd the what elements can float beside a given element  -->
+
+</head>
+<body>
+    <div class="toy1">
+        
+    </div>
+    <div class="toy2">
+
+    </div>
+</body>
+</html>

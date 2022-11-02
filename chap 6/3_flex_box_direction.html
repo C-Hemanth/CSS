@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+        <!-- the css "flex box" == it is used to provide a better design,layout,align,and distributed space among items in a container -->
+
+
+        <!-- 1)flex box has flex items 
+        2)main axis == horioziontal
+        3)cross axis ===  veritcal -->
+
+    <style>
+        .content{
+            /* background-color: brown; */
+            display: flex;
+            flex-direction: column;
+                /* makes the toy class in coloum way      */
+            flex-direction: row;
+                /* makes the toy class in row way */
+            flex-direction: row-reverse;
+                 /* makes the toy class in row reverse way */
+            flex-direction: column-reverse;
+                /* makes the toy class in coloum reverse way */
+             }
+        .toy1{
+            background-color: aqua;
+            height: 20vh;
+            width: 20vh;
+            
+        }
+        .toy2{
+            background-color: blueviolet;
+            height: 20vh;
+            width: 20vh;
+        }
+    </style>
+
+            <!-- flex property == defines the direction towardds items can be row,colom,reverse of row and coloum -->
+
+</head>
+<body>
+    <div class="content">
+        
+    
+    <div class="toy1">
+        heloo
+    </div>
+    <div class="toy2">
+        how r  u
+    </div>
+    <div class="toy1">
+        bye
+    </div>
+</div>
+</body>
+</html

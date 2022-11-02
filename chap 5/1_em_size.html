@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>em size</title>
+    <style>
+        .parent{
+            font-size: 20px;
+        }
+        .child{
+            /* font-size: 10px; */
+
+            /* instead of using of 'px' we use em  */
+            /* em == whick is used fot the child to get  relative size of than parent */
+            /* example ==  we use below 'parent = 20px' and in 'child = 2em' the content of the child size becomes 20 x 2 = 40 px   */
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, vel.
+        <div class="child">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fugit, id pariatur officiis non aliquid sint facere consequuntur tempore iure.
+        </div>
+    </div>
+</body>
+</html>
+
+                    <!-- note ==  mainly the "rem" and "em" are used to reszize the overall page when we needed -->

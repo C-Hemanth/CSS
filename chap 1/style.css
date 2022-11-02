@@ -1,0 +1,11 @@
+/* body{
+    background-color: aqua;
+} */
+#first{
+    background-color: blueviolet;
+}
+.bg-blue{
+    background-color: brown;
+    /* color is used to represent the word color */
+    color: blue;
+}

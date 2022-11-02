@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        .toy{
+            background-color: aqua;
+            height: 90vh;
+            width: auto;
+        }
+        /* .pic{
+            background-color: tomato;
+            height: fit-content;
+            width: fit-content;
+            
+
+        } */
+        .pic img{
+            width: 20vw;
+            height: 20vh;
+
+            animation-name: firstanimate;
+            /* 1) animation name == we should give a name to our animation */
+
+            animation-duration: 3s;
+            /* 2) animation-duration == we should give for how mauch time the image should animate from one size to other size  */
+
+            animation-delay: 1s;
+            /* 3) animation-delay == for how much time the image should wait to animate   */
+
+            animation-iteration-count: 3;  
+            /* 4) animation-iteration-count == for how many times the image should move from normal size to original size */
+
+            animation-direction: alternate-reverse;
+            /* 5) animation-direction == in which the image come back in its original size in the reverse direction  */
+
+            animation-timing-function: ease-in-out;
+            /* 6) animation-timing-function == in which the image is moves slowly/fastly in starting and in ending */
+
+        }
+        @keyframes firstanimate{
+            from{
+                width: 30vw;
+                height: 30vh;
+            }
+            to{
+                width: 100vw;
+                height: 100vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="toy">
+        <div class="pic">
+            <img src="https://unsplash.com/blog/content/images/size/w1000/2022/05/Tim-landscape-Canada-1.jpg " alt="" width="200px" height="200px">
+        </div>
+    </div>
+</body>
+</html>

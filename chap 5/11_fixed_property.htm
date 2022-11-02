@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+
+        /* absolute == element is removed from the flow and its relatively positoned to first no-static ancestor   */
+        header{
+            background-color: palevioletred;
+            height: 30px;
+            /* margin: 10px; */
+
+            /* fixed == just like absolute the the element is position: relative to the browser window  */
+            
+        }
+        li{
+            display: inline;
+        }
+        .content{
+            background-color: chartreuse;
+            text-align: center;
+            height: 500vh;
+            width: 50vw;
+            margin: auto;
+
+            /* we have given height the page height moves when scrolling down until at a height given , */
+            /* but the content2 which is fixed doesnot scroll along with the page  */
+            /* content2 is fixed but the page scrools to a certain height   */
+
+        }
+        .content2{
+            background-color: cornflowerblue;
+            height: 50vh;
+            width: 15vw;
+            position: fixed; 
+            /* top: 100px; */
+            /* left: 2vh; */
+
+           
+        }
+        .content3{
+            background-color: coral;
+            height: 180px;
+            width: 90px;
+            /* position: relative; */
+            /* left: 48px; */
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>home</li>
+                <li>about</li>
+                <li>contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio beatae, modi d
+        <div class="content2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptate nihil laudantium ullam alias temporibus vero sequi.
+            
+        </div>
+        <div class="content3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, delectus.
+            </div>
+    </div>
+</body>
+</html>
